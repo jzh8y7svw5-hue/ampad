@@ -1,0 +1,9 @@
+Package: com.august.ambientmusic
+Name: AmbientMusic
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Standby-style music display (blurred artwork background) on the lock screen
+Maintainer: August
+Author: August
+Section: Tweaks
