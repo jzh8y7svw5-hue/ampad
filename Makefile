@@ -6,6 +6,6 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = AmbientMusic
 AmbientMusic_FILES = Tweak.xm
 AmbientMusic_FRAMEWORKS = UIKit QuartzCore CoreGraphics
-AmbientMusic_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-undeclared-selector
+AmbientMusic_CFLAGS = -fobjc-arc -fno-modules -Wno-deprecated-declarations -Wno-undeclared-selector
 
 include $(THEOS_MAKE_PATH)/tweak.mk
